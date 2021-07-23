@@ -5,11 +5,10 @@ It compete the GC content of a DNA sequence.
 """
 # Get the DNA sequence:
 DNA = input("Enter the DNA sequence, please:")
-output=
 # Count C's in DNA sequence
-NO.C = DNA.count('C')
+NO_C = DNA.count('C') + DNA.count('c')
 # Count G's in DNA sequence
-NO.G = DNA,count('G')
+NO_G = DNA.count('G') + DNA.count('g')
 # Get the length of the DNA sequence
 DNA_length = len(DNA)
 # Compute GC percentage
